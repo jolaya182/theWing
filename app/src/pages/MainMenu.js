@@ -21,7 +21,7 @@ const selectedStyle = {
 
 const MainMenu = () => <nav className={"mainMenu"}>
   <Picture picture={profile }></Picture>
-  <NavLink to="/" activeStyle={selectedStyle}>Home</NavLink>
+  <NavLink to="/" activeStyle={selectedStyle}>MineSweep</NavLink>
   <NavLink to="/home" activeStyle={selectedStyle}>Home</NavLink>
 </nav>
 

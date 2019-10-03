@@ -10,13 +10,13 @@
  */
 import React from 'react';
 import { Route, Switch, HashRouter as Router } from 'react-router-dom';
-import {  home,home2, whoops404 } from '../pages';
+import {  MineSweep,home2, whoops404 } from '../pages';
 import pages from '../css/index.scss'
 
 const App = () => (
   <Router>
     <Switch>
-      <Route path='/' exact component={home} />
+      <Route path='/' exact component={MineSweep} />
       <Route path='/home' exact component={home2} />
       
       <Route component={whoops404} />

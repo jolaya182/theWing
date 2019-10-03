@@ -11,6 +11,7 @@
 import React from 'react';
 import pages from '../css/index.scss';
 import MainMenu from './MainMenu';
+import BoardContainer from '../containers/BoardContainer';
 
 export const whoops404 = () => (<div className={"whoops404"}>
   <h1>resources not found at {location.pathname}</h1>
@@ -21,11 +22,12 @@ const PageTemplate = ({ children }) => <div className={"page"}>
   {children}
 </div>
 
-export const home = () => (
+export const MineSweep = () => (
   <PageTemplate>
     <div>
-      <section className={"home"}>
-        <h1>Home</h1>
+      <section className={"MineSweep"}>
+        <h1>MineSweep</h1>
+        <BoardContainer></BoardContainer>
       </section>
     </div>
   </PageTemplate>);

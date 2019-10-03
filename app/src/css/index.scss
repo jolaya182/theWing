@@ -13,6 +13,23 @@ width: 100%;
   flex:1;
 }
 
+.boardSlot{
+  border: solid 1px;
+  border-color: black;
+  height: 90px;
+  width: 90px;
+}
+
+.slotCover{
+  background-color: gray;
+}
+
+.boardRow{
+  border: solid 1px;
+  border-color: black;
+}
+
+
 $main-font: sans-serif;
 html, body, #app, #app>div{
   // height:100%;
@@ -75,12 +92,15 @@ div.whoops404{
 }
 
 // home
-section.home{
+section.MineSweep{
   font-size:3em;
   color:slategray;
   h1{
     font-size:3em;
   }
+}
+.board{
+  display: flex;
 }
 
 nav.mainMenu{
